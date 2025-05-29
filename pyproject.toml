@@ -1,0 +1,15 @@
+[project]
+name = "problem_set_3"
+version = "1.0.0"
+description = "Goodstein / Hackenbush"
+authors = [{ name = "Louis641214" }]
+dependencies = [
+    "matplotlib>=3.10"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["src"]
